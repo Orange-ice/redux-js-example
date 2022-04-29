@@ -1,9 +1,14 @@
 import React from "react";
+import Unit from "./Unit.jsx";
+import Number from "./Number.jsx";
 
 const App = () => {
 
     return (
-        <h1>App</h1>
+        <div>
+            <Number />
+            <Unit />
+        </div>
     )
 }
 
