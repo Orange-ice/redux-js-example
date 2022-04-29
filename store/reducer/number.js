@@ -1,4 +1,4 @@
-const reducer = (state=0, action) => {
+const numberReducer = (state=0, action) => {
     switch (action.type){
         case 'ADD':
             return state + 1;
@@ -10,4 +10,4 @@ const reducer = (state=0, action) => {
 }
 
 
-export default reducer;
+export default numberReducer;
